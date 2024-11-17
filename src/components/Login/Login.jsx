@@ -4,7 +4,7 @@ import Cookies from "js-cookie"; // Importing js-cookie to manage cookies
 import propTypes from "prop-types";
 
 function Login({ setStage, setSessionExpiry }) {
-    const [email, setEmail] = useState("rahulksingh3907@gmail.com");
+    const [email, setEmail] = useState("");
     const [otp, setOtp] = useState("");
     const [otpSent, setOtpSent] = useState(false);
     const [isVerified, setIsVerified] = useState(false);
